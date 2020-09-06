@@ -66,7 +66,7 @@ public class NBody {
 		double totalTime = 39447000.0;
 		double dt = 25000.0;
 
-		String fname= "./data/planets.txt";
+		String fname= "data/kaleidoscope.txt";
 
 		if (args.length > 2) {
 			totalTime = Double.parseDouble(args[0]);
