@@ -160,7 +160,7 @@ public class CelestialBody {
 	 * @param bodies the other celestial bodies to which the force exerted in the y direction is calculated
 	 * @return net force in y direction exerted by all bodies onto this body
 	 */
-	//The net force exerted in the y direction on this Celestial body by all the other celestial bodies in the array.
+	//The net force exerted in the y direction on this Celestial body by all the other celestial bodies in the array. 1
 	public double calcNetForceExertedByY(CelestialBody[] bodies) {
 		double sum = 0.0;
 		for(CelestialBody b : bodies)
